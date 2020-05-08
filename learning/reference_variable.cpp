@@ -11,5 +11,14 @@ int main () {
     cout << &food << endl;
     cout << &dish << endl;
 
+    food = "Chicken fry";
+    dish = "Chicken curry";
+
+    cout << food << endl;
+    cout << dish << endl;
+
+    cout << &food << endl;
+    cout << &dish << endl;
+
     return 0;
 }
